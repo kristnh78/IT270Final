@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<!--
+    Author: Kristin Hairapetian
+    Date: 10/30/2015
+-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Kristin's Dinosaur Adoption</title>
+    <script src="functions.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="form.css" />
+</head>
+<body>
+    <header>
+        <h1>Adopt-a-Dino<img src="logo.png" alt="logo" /></h1>
+        <div id="logo">
+            
+        </div>
+        <p>Find the perfect pet for you.</p>
+    </header>
+    <div id="wrap">
+        <nav>
+            <ul>
+                <li><a href="home.htm">Home</a></li>
+                <li class="active"><a href="adopt.htm">Adopt</a></li>
+                <li><a href="contact.htm">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <h2>About Sarah</h2>
+            <img src="dinos/sarah.jpg" id="adoptPageImg" />
+
+            <table id="adopt">
+                <tbody>
+                    <tr><th>Name</th><td>Sarah</td></tr>
+                    <tr><th>Age</th><td>6</td></tr>
+                    <tr><th>Weight</th><td>2 Tons</td></tr>
+                    <tr><th></th><td>
+                                    <p>Sarah came to rescue as a stray found in Virginia. Her name was given him by the Shelter. She is working on learning it and seems to welcome some encouragement from a simple clap of the hands when calling her. She has been neutered and is UTD on vacinations.</p>
+
+                                    <p>
+                                        Sarah is housebroken. She will let you know when he needs to go out. She does like to go out in the morning and after every meal.
+                                    </p>
+
+                                    <p>
+                                        Sarah knows, "Sit", "Stay" and will offer her paw for a treat. She has a very sweet disposition and loves being near you at all times. She is eager to please and will look to you for praise and confirmation that she is a part of your life.
+                                    </p>
+
+                                    <p>
+                                        As noted above, Sarah was found as a stray. Her current foster does not have a fenced yard, and while she is doing quite well with leash walking, her new home will need a fenced yard.
+                                    </p>
+                        </td>
+                    </tr>
+
+                    <!--<tr><td><a href="sarah.htm">Sarah</a></td><td>Herbivore</td><td>Triceratops</td><td><img src="dinos/sarah.jpg" /></td></tr>
+                    <tr><td><a href="kenny.htm">Kenny</a></td><td>Herbivore</td><td>Brontosaurus</td><td><img src="dinos/kenny.jpg" /></td></tr>
+                    <tr><td><a href="reggie.htm">Reggie</a></td><td>Carnivore</td><td>Tyrannosaurus Rex</td><td><img src="dinos/reggie.png" /></td></tr>-->
+                </tbody>
+            </table>
+
+            <h3>I am interested in Sarah!</h3>
+            <p>Set up an appointment:</p>
+            <form>
+                <label for="name">Name</label><input type="text" id="name" name="name" required="required" /><br />
+                <label for="email">Email</label><input type="email" id="email" name="email"required="required" /><br />
+                <label for="phone">Phone</label><input type="text" id="phone" name="phone" /><br />
+                <label for="date">Date</label><input type="date" id="date" name="date" required="required" /><br />
+
+            </form>
+            
+
+        </div>
+
+        
+    </div>
+
+    <footer>
+        <nav>
+            <p>Dinosaurs depicted on this site are not real.  All sales final.</p>
+        </nav>
+    </footer>
+
+</body>
+</html>

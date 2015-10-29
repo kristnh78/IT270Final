@@ -1,0 +1,104 @@
+﻿/*
+    Author: Kristin Hairapetian
+    Date: 10/30/2015
+*/
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #F8EEB9;
+    color: #272727;
+}
+
+header {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+    header h1, header p {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+nav {
+    height: 50px;
+    background: #272727;
+}
+
+    nav ul li {
+        display: inline;
+        float: left;
+        padding: 10px;
+        margin: 0px;
+    }
+        nav ul li a {
+            color: #FFF;
+            text-decoration:none;
+        }
+
+        nav ul li.active {
+            border-bottom: 2px #fff solid;
+        }
+
+
+#adopt {
+    width: 70%;
+}
+
+    #adopt th, #adopt td {
+        padding: 5px;
+    }
+
+#adoptPageImg {
+    width: 25%;
+    float: right;
+}
+
+
+#adopt th {
+    vertical-align: top;
+}
+
+
+
+#adoptMain {
+    border-collapse: collapse;
+    width: 100%;
+    background: #F3E082;
+}
+
+    #adoptMain .fixedWidth {
+        width: 20%;
+    }
+
+    #adoptMain td, #adoptMain th {
+        border: 1px solid #888;
+        text-align: center;
+    }
+
+        #adoptMain td img {
+            width: 70%;
+            margin: 5px auto;
+        }
+
+
+
+#content {
+    width: 80%;
+    padding: 3%;
+    margin: 0px auto;
+    border: #272727 solid;
+    border-width: 0px 2px;
+    background: #E3F8B9;
+    box-shadow: 0px 5px 20px #888;
+}
+
+footer nav p{
+    color: #fff;
+    text-align: right;
+    font-size: 0.8em;
+    padding: 15px;
+    margin: 0px;
+}
